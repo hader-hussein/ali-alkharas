@@ -1,0 +1,59 @@
+[dir="rtl"] .contact-content a i{
+     margin-left: 20px;
+}
+[dir="ltr"] .contact-content a i{
+     margin-right: 20px;
+}
+[dir="ltr"]  .card-blog{
+     text-align: left;
+}
+[dir="rtl"] .link-plas{
+     text-align: left; 
+}
+[dir="rtl"] .btn-btn i,[dir="rtl"] .btn-btn {
+    
+     border-radius: 47px 0 0 47px;
+
+}
+[dir="ltr"] .btn-btn i,[dir="ltr"] .btn-btn{
+    
+     border-radius: 0px 47px 47px 0px;
+
+}
+[dir="ltr"] .link-plas{
+     text-align: right;
+}
+[dir="rtl"] .img-content,[dir="rtl"] .img-content-us{
+     left: 10%;
+}
+[dir="ltr"] .img-content,[dir="ltr"] .img-content-us{
+     right: 10%;
+}
+[dir="rtl"] .img-blog-date::after{
+     right: 5%;
+}
+[dir="ltr"] .img-blog-date::after{
+     left: 5%;
+}
+[dir="rtl"] .content-slider-articles .owl-articles .owl-nav {
+     left:-27%
+      }
+      [dir="ltr"] .content-slider-articles .owl-articles .owl-nav {
+          right:-27%
+           }
+           
+@media (max-width: 768px){
+     [dir="ltr"] .content-slider-articles .owl-articles .owl-nav {
+          right: -3%;
+      }
+      
+      
+}
+[dir="rtl"] .img-file{
+     left: 9%;
+
+}
+[dir="ltr"] .img-file{
+     right: 9%;
+
+}
