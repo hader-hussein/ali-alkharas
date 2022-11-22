@@ -413,7 +413,7 @@ font-weight: 500;
 .col-defintion:hover{
      background-color: #fff;
      transform: translate(0,0.3em , 0);
-     transition: 0.3s;
+     transition: 0.8s;
 }
 
   
@@ -463,6 +463,9 @@ height: 36px;
      font-weight: 500;
      line-height: 26px;
      padding: 8px 20px;
+}
+.link-ether a:hover{
+     background-color: #2D2D2D;
 }
 .link-ether a img{
      width: 16px;
