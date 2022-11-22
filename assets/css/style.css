@@ -126,8 +126,8 @@ ul li{
 border-bottom: 0px !important;
 }
 .logo-hader{
-     width: 80%;
-     height: 95px;
+     width: 85%;
+     height: 100px;
 }
 .link-lengeth a{
      background-color: #D8B76F;
@@ -1074,7 +1074,7 @@ width: 100%;
 }
 .title-defintion{
      color: #414042;
-     font-size: 16px;
+     font-size: 17px;
      font-weight: 800;
      line-height: 33px;
      text-transform: capitalize;
@@ -1095,8 +1095,8 @@ color: #D8B76F;
      justify-content: center;
      background-color: #D8B76F;
      border-radius: 10px;
-     width: 85px;
-     height: 85px;
+     width: 93px;
+     height: 93px;
      display: flex;
      margin: auto;
      align-items: center;
