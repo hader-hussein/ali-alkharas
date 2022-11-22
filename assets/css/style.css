@@ -1107,8 +1107,8 @@ color: #D8B76F;
 }
 .content-defintion{
      box-shadow: 0px 3px 10px #00000010;
-     display: grid;
-     grid-template-rows: max-content max-content 1fr;
+     /* display: grid;
+     grid-template-rows: max-content max-content 1fr; */
      position: relative;
      overflow: hidden;
      background-color: #fff
