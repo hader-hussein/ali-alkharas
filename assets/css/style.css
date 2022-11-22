@@ -155,7 +155,7 @@ width: 80%;
 }
 .navber-index .navbar-nav .nav-link{
      color: #414042;
-     font-size:16px ;
+     font-size:20px ;
      font-weight: 400;
      text-transform: capitalize;
      line-height: 30px;
@@ -279,9 +279,9 @@ font-size: 16px;
 }
 .img-logo-slid{
      position: absolute;
-     top: 20%;
+     top: 13%;
      width: 300px;
-     height: 300px;
+     height: 433px;
      left: 5%;
 }
 .over-slid{
@@ -1082,7 +1082,7 @@ width: 100%;
 .ul-services li{
      list-style: decimal;
      color: #414042;
-     font-size:14px ;
+     font-size:15px ;
      font-weight:400 ;
      line-height: 21px;
      margin-bottom: 15px;
