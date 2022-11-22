@@ -348,7 +348,7 @@ font-size: 16px;
      color:#414042 ;
      font-weight: 400;
      line-height: 29px;
-     font-size: 16px;
+     font-size: 24px;
      
 }
 @media (min-width:990px) {
@@ -412,8 +412,8 @@ font-weight: 500;
 }
 .col-defintion:hover{
      background-color: #fff;
-     transform: translate(0, -0.3em , 0);
-
+     transform: translate(0,0.3em , 0);
+     transition: 0.3s;
 }
 
   
