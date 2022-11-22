@@ -467,7 +467,9 @@ transition-delay: 0;
      align-items: center;
      top: -49%;
      z-index: 1;
+    
 }
+
 .img-top img{
      width: 55px;
      height: auto;
