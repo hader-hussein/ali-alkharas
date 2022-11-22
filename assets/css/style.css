@@ -418,11 +418,14 @@ font-weight: 500;
 .col-defintion{
      background-color: #D8B76F;
      position: relative;
+     transition-property: all;
+     transition-duration: 1s;
+     transition-timing-function: ease;
+     transition-delay: 0;
 }
 .col-defintion:hover{
      background-color: #fff;
-     transform: translate(0,0.3em , 0);
-     transition: 0.8s;
+     
 }
 
   
@@ -447,6 +450,10 @@ display: none;
 }
 .col-defintion:hover span{
 display: block;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease;
+transition-delay: 0;
 }
 .img-top{
      background-color: #00000087;
@@ -1131,7 +1138,10 @@ color: #D8B76F;
      position: relative;
      overflow: hidden;
      background-color: #fff;
-     transition: all .3s ease;
+     transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0;
  }
  .link-asking{
      display: none;
@@ -1151,7 +1161,7 @@ color: #D8B76F;
      background-position: 0 0;
      border: 3px solid #D8B76F;
      animation: clippath 3s  linear;
-     transition: all .8s ease;
+     
 }
 
 @keyframes clippath {
@@ -1172,7 +1182,10 @@ color: #D8B76F;
  .content-defintion:hover .link-asking{
      display: block;
      transform: translate(0px, 0px);
-    
+     
+ }
+ .content-defintion:hover{
+     transform: scaley(1.05);
  }
 .link-asking a{
      background-color: #414042;
