@@ -348,7 +348,7 @@ font-size: 16px;
      color:#414042 ;
      font-weight: 400;
      line-height: 29px;
-     font-size: 24px;
+     font-size: 20px;
      
 }
 @media (min-width:990px) {
@@ -1225,7 +1225,7 @@ filter: grayscale(100%)
 }
 .card-blog .card-body .title-p{
      color: #414042;
-     font-size: 16px;
+     font-size: 20px;
      font-weight: 300;
      line-height: 27px;
      margin-bottom: 0px;
