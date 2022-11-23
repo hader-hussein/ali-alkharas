@@ -82,5 +82,5 @@ autoplayHoverPause:false,
   }
   
 });
-$( ".owl-prev").html('<i class="fa-solid fa-arrow-right-long"></i>');
- $( ".owl-next").html('<i class="fa-solid fa-arrow-left-long"></i>');
+$( ".owl-prev").html("<img src='./assets/img/Icon-left-r.png'>");
+ $( ".owl-next").html("<img src='./assets/img/arrow-right.png'>");
