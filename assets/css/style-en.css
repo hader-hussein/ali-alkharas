@@ -74,3 +74,18 @@ top:-18%
 
      }
 }
+@media (min-width:990px) {
+     [dir="ltr"] .social-footer{
+          margin-left: 6rem;
+     }
+     [dir="rtl"] .social-footer{
+          margin-right: 6rem;
+     } 
+}
+
+[dir="rtl"] .col-contact-hader{
+     padding-right: 5%;
+}
+[dir="ltr"] .col-contact-hader{
+     padding-right: 5%;
+}

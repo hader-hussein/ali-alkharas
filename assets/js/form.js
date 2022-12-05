@@ -84,3 +84,21 @@ autoplayHoverPause:false,
 });
 $( ".owl-prev").html("<img src='./assets/img/Icon-left-r.png'>");
  $( ".owl-next").html("<img src='./assets/img/arrow-right.png'>");
+ /***/
+
+ /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+ 
+  var element = document.getElementById("myDIV");
+   element.classList.toggle("show");
+   document.getElementById("myDropdown").classList.toggle("show");
+   
+//   if( element.classList.contains("show"))
+//   {
+// alert("hadeeer");
+//     element.classList.remove("show");
+//   }
+
+
+}
