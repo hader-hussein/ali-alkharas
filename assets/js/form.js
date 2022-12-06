@@ -102,3 +102,15 @@ function myFunction() {
 
 
 }
+/****/
+let switcherList = document.querySelectorAll(".table-top li");
+switcherList.forEach((li)=>{
+  li.addEventListener("click",removeActive);
+
+})
+function removeActive(){
+  switcherList.forEach((li)=>{
+    li.classList.remove("activ-link");
+    this.classList.add("activ-link");
+  })
+}
