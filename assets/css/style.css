@@ -851,7 +851,7 @@ width: 70px;
     
 }
 .table-top li{
-     list-style: none;
+     list-style:none;
 }
 .table-top-table>div:nth-child(3){
      grid-column-start: 3;
