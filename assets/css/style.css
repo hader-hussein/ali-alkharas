@@ -907,7 +907,7 @@ width: 70px;
 .table-top>div:nth-child(1),.activ-link{
      border: 1px solid #D8B76F;
 }
-.item-compaion:hover .title-tow-com,.activ-over.title-tow-com{
+.item-compaion:hover .title-tow-com,.activ-over .title-tow-com{
 color: #d8b76f;
 font-weight: bold;
 
