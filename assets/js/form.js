@@ -103,44 +103,28 @@ function myFunction() {
 
 }
 /****/
-// let switcherList = document.querySelectorAll(".table-top li");
 
 
-
-// switcherList.forEach((li)=>{
-//   li.addEventListener("click",removeActive);
-
-
-// })
-// function removeActive(){
-//   switcherList.forEach((li)=>{
-//     style.padding
-//     li.css("grid-row", "1/ span 2");
-//     li.css("grid-column", "3");
-// li.style.grid-row="1/ span 2"
-
-
-//     // li.classList.remove("activ-link");
-//     // this.classList.add("activ-link");
-//   })
-// }
-
-// jQuery("div#mainNav li").each(function() {
-//   var $li = jQuery(this);
-//   $li.css("grid-row", "1/ span 2");  
-//   $li.css("grid-column", "3");     
-// });
-
-function ChangeSize(classs , gridColoum)
+function ChangeSize(number , gridColoum)
 {
   //alert("hi");$("ul.nav li")
   $(".b1").removeClass('activ-link');
-  $(" .table-top li").css({'grid-column' : '','grid-row' : '' });
- 
-  $(" .table-top-table div").css({'grid-column' : '','grid-row' : '' });
+  $(".b1").removeClass('activ-over');
+  $(".i1").removeClass('activ-link');
 
-  $("."+classs ).css( "grid-row","1/ span 2" );
-  $("."+classs ).css( "grid-column", gridColoum);
+  $(" .table-top li").css({'grid-column' : '','grid-row' : '' });
+  $(" .table-top-table div").css({'grid-column' : '','grid-row' : ''  });
+  $(" .table-top-table div").removeClass("current-img")
+
+
+  $(".b"+number ).css( "grid-row","1/ span 2" );
+  $(".b"+number ).addClass( "activ-over" )
+  $(".b"+number ).css( "grid-column", gridColoum);
+
+  
+  $(".i"+number ).css( "grid-row","1/ span 2" );
+  $(".i"+number ).css( "grid-column", gridColoum);
+  $(".i"+number ).addClass( "current-img" )
 
   
 }

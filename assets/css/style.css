@@ -866,7 +866,7 @@ width: 70px;
 }
  .table-top-table{
      display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+     grid-template-columns: 1fr 1fr 1fr; 
     grid-row-gap: 15px;
     grid-column-gap: 20px;
   
@@ -876,6 +876,16 @@ width: 70px;
      grid-row: 1/ span 2;
      grid-column: 3;
     
+}
+@media (min-width:990px) {
+     .current-img{
+          width:550px;
+     }
+}
+@media (max-width:990px) {
+     .table-top{
+          display: block;
+     }
 }
 .table-top li{
      list-style:none;
@@ -897,7 +907,7 @@ width: 70px;
 .table-top>div:nth-child(1),.activ-link{
      border: 1px solid #D8B76F;
 }
-.item-compaion:hover .title-tow-com,.activ-link .title-tow-com{
+.item-compaion:hover .title-tow-com,.activ-over.title-tow-com{
 color: #d8b76f;
 font-weight: bold;
 
@@ -905,18 +915,18 @@ font-weight: bold;
 .activ-link .title-tow-com{
      font-size: 25px;
 }
-.item-compaion:hover .title-onr,.activ-link .title-onr{
+.item-compaion:hover .title-onr,.activ-over .title-onr{
 font-weight: 500;
 font-size: 22px;
 }
 .item-compaion:hover .title-text-button,
-.activ-link .title-text-button
+.activ-over .title-text-button
 {
 font-weight: bold;
 color: #414042;
 }
 .item-compaion:hover .title-text-button::first-letter,
-.activ-link .title-text-button::first-letter{
+.activ-over .title-text-button::first-letter{
 color: #D8B76F !important;
 font-size: 30px;
 }
