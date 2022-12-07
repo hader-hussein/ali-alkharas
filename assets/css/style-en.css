@@ -81,11 +81,11 @@ top:-18%
      [dir="rtl"] .social-footer{
           margin-right: 6rem;
      } 
+     [dir="rtl"] .colemail{
+          padding-right: 10%;
+     }
+     [dir="ltr"] .col-contact-hader,.colemail{
+          padding-left: 10%;
+     }
 }
 
-[dir="rtl"] .col-contact-hader{
-     padding-right: 5%;
-}
-[dir="ltr"] .col-contact-hader{
-     padding-right: 5%;
-}

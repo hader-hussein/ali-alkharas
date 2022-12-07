@@ -23,13 +23,13 @@
 <body>
      <div class="nav-top">
           <div class="container">
-               <div class="row mx-0 row-cols-lg-2 row-cols-1">
+               <div class="row mx-0 row-cols-lg-2 row-cols-1 pb-2">
                     <div class="col">
                          <img class="logo-hader"src="./assets/img/logo.png" alt="logo">
                     </div>
-                    <div class="col col-contact-hader">
-                         <div class="row-nav-content row align-items-center row-cols-lg-2  row-cols-1">
-                              <div class="col component-footer-content  justify-content-center mt-2">
+                    <div class="col col-contact-hader ">
+                         <div class="row-nav-content row align-items-center  row-cols-1">
+                              <div class="col-md-8 component-footer-content colemail justify-content-center mt-2">
                                    <div class="contact-content mb-2">
                                        <a href="mailto:info@akcpa.co" class="content-box">
                                         <i class="fas fa-envelope"></i>
@@ -49,7 +49,7 @@
                                        </a>
                                    </div>
                               </div>
-                              <div class="col link-lengeth">
+                              <div class="col-md-4 link-lengeth">
                                    <a href="">
                                         English
                                         <i class="fa-solid fa-globe"></i>
@@ -63,7 +63,7 @@
           </div>
      </div>
      <!--nav-->
-        <nav class="navbar navbar-expand-xl navber-index">
+        <nav class="navbar navbar-expand-xl navber-index sticky-top">
           <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -293,27 +293,27 @@
           <!---financial partner-->
           <section class="component-financial pt-5">
                <div class="container">
-                    <div class="table-top-table">
-                         <div class="">
+                    <div class="table-top-table  ">
+                         <div class=" activ-link  b1" id="img-op1">
                               <img class="img-financial" src="./assets/img/picture1.png"alt=img>
                          </div>
-                         <div class="">
-                              <img class=" img-financial" src="./assets/img/Picture2.png"alt=img>
+                         <div class="b2" id="img-op2">
+                              <img class=" img-financial " src="./assets/img/Picture2.png"alt=img>
                          </div>
-                         <div class=" activ-link-img">
+                         <div class=" b3" id="img-op3">
                               <img class="img-financial" src="./assets/img/table-img.png"alt=img>
                          </div>
-                         <div class="">
+                         <div class="b4 " id="img-op4">
                               <img class="img-financial" src="./assets/img/Picture3.png"alt=img>
                          </div>
-                         <div class="">
+                         <div class=" b5" id="img-op5">
                               <img class="img-financial" src="./assets/img/picture4.png"alt=img>
                          </div>
                 
                     </div>
                     <div class="table-top pt-5 pb-5">
                           <!---->
-                          <li class="col-4 col-button activ-link">
+                         <li class="col-4 col-button activ-link b1 "  onclick="ChangeSize('b1',1 )"   data-cat=".all">
                               <button class="item-compaion">
                                    
                                    <div class="title-text-button">  Key</div>
@@ -323,7 +323,7 @@
           
                          </li>
                          <!---->
-                         <li class="col-4 col-button"  id="clickme">
+                         <li class="col-4 col-button b2"  onclick="ChangeSize('b2',1 )" data-cat=".hollo">
                              <button class="item-compaion">
                                  <div class="title-text-button">  Comprehensive</div>
                                 
@@ -333,7 +333,7 @@
          
                          </li>
                           <!---->
-                          <li class="col-4 col-button">
+                          <li class="col-4 col-button b3 "  onclick="ChangeSize('b3',2 )"    data-cat=".aml">
                               <button class="item-compaion">
                                    <div class="title-text-button">  Accurate</div>
                                    
@@ -344,7 +344,7 @@
                          </li>
                          <!---->
                         
-                         <li class="col-4 col-button">
+                         <li class="col-4 col-button b4 "   onclick="ChangeSize('b4',1)"  data-cat=".tahj">
                               <button class="item-compaion">
                                    <div class="title-text-button">  Achieve</div>
                                    
@@ -355,7 +355,7 @@
                          </li>
                          <!---->
                            <!---->
-                         <li class="col-4 col-button">
+                         <li class="col-4 col-button b5"    onclick="ChangeSize('b5',3 )"  data-cat=".aln">
                               <button class="item-compaion">
                                    <div class="title-text-button">  Partners</div>
                                    

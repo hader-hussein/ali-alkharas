@@ -103,14 +103,44 @@ function myFunction() {
 
 }
 /****/
-let switcherList = document.querySelectorAll(".table-top li");
-switcherList.forEach((li)=>{
-  li.addEventListener("click",removeActive);
+// let switcherList = document.querySelectorAll(".table-top li");
 
-})
-function removeActive(){
-  switcherList.forEach((li)=>{
-    li.classList.remove("activ-link");
-    this.classList.add("activ-link");
-  })
+
+
+// switcherList.forEach((li)=>{
+//   li.addEventListener("click",removeActive);
+
+
+// })
+// function removeActive(){
+//   switcherList.forEach((li)=>{
+//     style.padding
+//     li.css("grid-row", "1/ span 2");
+//     li.css("grid-column", "3");
+// li.style.grid-row="1/ span 2"
+
+
+//     // li.classList.remove("activ-link");
+//     // this.classList.add("activ-link");
+//   })
+// }
+
+// jQuery("div#mainNav li").each(function() {
+//   var $li = jQuery(this);
+//   $li.css("grid-row", "1/ span 2");  
+//   $li.css("grid-column", "3");     
+// });
+
+function ChangeSize(classs , gridColoum)
+{
+  //alert("hi");$("ul.nav li")
+  $(".b1").removeClass('activ-link');
+  $(" .table-top li").css({'grid-column' : '','grid-row' : '' });
+ 
+  $(" .table-top-table div").css({'grid-column' : '','grid-row' : '' });
+
+  $("."+classs ).css( "grid-row","1/ span 2" );
+  $("."+classs ).css( "grid-column", gridColoum);
+
+  
 }
