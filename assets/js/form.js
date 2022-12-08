@@ -7,6 +7,10 @@ for (let j = 0; j<menulengthabout; j++){
     }
 }
 ///
+$(document).ready(function() {
+  $('.navber-index .nav-item .nav-link').removeClass('active').removeAttr('aria-current');
+  $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+});
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict'
@@ -94,12 +98,6 @@ function myFunction() {
    element.classList.toggle("show");
    document.getElementById("myDropdown").classList.toggle("show");
    
-//   if( element.classList.contains("show"))
-//   {
-// alert("hadeeer");
-//     element.classList.remove("show");
-//   }
-
 
 }
 /****/
