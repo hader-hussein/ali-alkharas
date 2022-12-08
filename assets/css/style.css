@@ -464,16 +464,18 @@ font-weight: 500;
      padding-top: 20px;
      justify-content: center;
      align-items: center;
-     margin-bottom:3rem;
+     margin-bottom:2rem;
      position: relative;
+     transition: all .5s ease-in-out;
+     padding-bottom: 19px;
 }
 .col-link-s:hover{
      background-image:url(../img/Subtraction-t.png);
      background-repeat: no-repeat;
-     transition: all 3s;
     max-height: fit-content;
-    height: 87px;
-    
+    height: 87%;
+    transition: all 3s;
+   
 }
 
   
@@ -491,13 +493,19 @@ line-height: 18px;
 text-transform: capitalize;
 text-decoration: underline;
 text-decoration-color: #D8B76F;
-transition: all 3s;
-/* visibility: hidden; */
+transition: all .5s ease-in-out;
+transform: translateY(-4px);
+position: absolute;
+    opacity: 1;
+visibility: hidden;
+text-align: center;
+    width: 100%;
+    z-index: 5;
 }
-/* .col-defintion:hover span{
+.col-link-s:hover .span-mor{
      visibility: visible;
  
-} */
+}
 .img-top{
      position: absolute;
      left: 14%;
@@ -518,7 +526,9 @@ transition: all 3s;
           left: 17%;
      }
      .col-link-s {
-margin-bottom: 2rem;
+margin-bottom: 1.2rem;
+padding-bottom: 9px;
+padding-top: 15px;
      }
      .img-logo-slid {
             top: 12%;
@@ -1265,7 +1275,6 @@ color: #D8B76F;
    
 }
 .link-asking {
-  /* display: none; */
      transition: all .5s ease-in-out;
      position: absolute;
     width: 100%;
@@ -1273,7 +1282,7 @@ color: #D8B76F;
     opacity: 1;
     visibility: hidden;
     z-index: 999;
-    /* transition: 0.3s all ease-in-out; */
+    transform: translateY(57px);
  }
 
 .content-defintion:hover .link-asking{
