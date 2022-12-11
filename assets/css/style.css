@@ -474,7 +474,7 @@ font-weight: 500;
      background-repeat: no-repeat;
     max-height: fit-content;
     height: 87%;
-    transition: all 3s;
+    transition: all 0.2s;
    
 }
 .col-servese{
@@ -1288,6 +1288,7 @@ color: #D8B76F;
     z-index: 999;
     /* transform: translateY(19px); */
     justify-content: center;
+    bottom: 0px;
  }
 
 .content-defintion:hover .link-asking{
@@ -1299,7 +1300,7 @@ color: #D8B76F;
     opacity: 1;
     visibility: visible;
     /* transform: translateY(-27px); */
-bottom: 11px;
+bottom: 20px;
  }
  .content-defintion:hover {
      transition: all 3s; 
