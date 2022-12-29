@@ -1379,7 +1379,7 @@ bottom: 20px;
 .card-blog .blog-img{
 width: 100%;
 height: 230px;
-height: auto;
+
 filter: grayscale(100%)
 }
 .card-blog{
