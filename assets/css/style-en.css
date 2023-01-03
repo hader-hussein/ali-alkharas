@@ -82,10 +82,27 @@ top:-18%
           margin-right: 6rem;
      } 
      [dir="rtl"] .colemail{
-          padding-right: 10%;
+          padding-right: 18%;
      }
-     [dir="ltr"] .col-contact-hader,.colemail{
+     [dir="ltr"] .colemail{
+          padding-left: 8%;
+     }
+     [dir="ltr"] .col-contact-hader{
           padding-left: 10%;
      }
+     [dir="rtl"] .component-serves{
+padding-right: 42px;
+     }
+     [dir="ltr"] .component-serves{
+          padding-left: 42px;
+               }
+}
+@media (min-width:1000px) and (max-width: 1024px){
+     [dir="rtl"] .colemail {
+          padding-right: 9%;
+      }
+      [dir="ltr"] .colemail {
+          padding-left: 9%;
+      }
 }
 
