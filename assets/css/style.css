@@ -161,6 +161,11 @@ text-align: right !important;
           font-size: 15px;
      }
 }
+.navbar-toggler:focus {
+    
+     box-shadow: transparent !important;
+     box-shadow:0 0 0 0 !important;
+ }
 /*end-title-web*/
 /*p-defintion*/
 .defintion-p{
@@ -211,8 +216,7 @@ border-bottom: 0px !important;
 margin-bottom: 20px;
      }
      .logo-hader {
-width: 80%;
- height: 50px;
+width: 100%;
      }
 }
 /*nav-tow*/
@@ -262,7 +266,16 @@ width: 80%;
      background-size: cover;
      
 }
+@media (max-width:768px){
+     .component-footer{  
+          background-image: url(../img/Splatter.png);
+          background-repeat: repeat;
+          background-size: cover;  
+               
+         }
 
+     
+}
 .ul-servies li{
      list-style-image: url('../img/ul-pth.png');
 }
@@ -659,9 +672,15 @@ text-align: center;
 }
 @media (min-width:768px) and (max-width:1300px) {
      .img-top{
-          left: 23%;
+          left: 24%;
           top: -29%;
      }
+}
+     @media (min-width:660px) and (max-width:768px) {
+          .img-top{
+               left: 21%;
+               top: -29%;
+          }
      .col-link-s {
 margin-bottom: 1.2rem;
 padding-bottom: 9px;
@@ -676,10 +695,19 @@ padding-top: 15px;
 }
 @media (max-width:550px) {
      .img-top{
-          left: 14%;
+          left: 16%;
      }
 } 
-
+@media (max-width: 425px){
+     .img-top {
+          left: 14%;
+      }
+}
+@media (max-width: 375px){
+     .img-top {
+          left: 16%;
+      }
+}
 
 @media (max-width:350px){
      .img-top{
@@ -833,8 +861,8 @@ padding-top: 30px;
       }
       .img-logo-slid {
 top:5%;
-width: 200px;
-height: 300px;
+width: 148px;
+    height: 277px;
       }
 
 }
@@ -1021,6 +1049,12 @@ width: 70px;
     grid-column-gap: 20px;
   
 } 
+@media (max-width:550px) {
+     .table-top-table{
+          grid-row-gap: 7px;
+          grid-column-gap: 10px;
+     }
+}
 .activ-link{
    
      grid-row: 1/ span 2;
@@ -1032,6 +1066,22 @@ width: 70px;
           width:550px;
      }
 }
+@media (max-width:768px) {
+     .current-img{
+          width:300px;
+     }
+}
+@media (max-width:550px) {
+     .current-img{
+          width:200px;
+     }
+}
+@media (max-width: 320px){
+     .current-img {
+          width: 165px;
+      }
+}
+
 @media (max-width:990px) {
      .table-top{
           display: block;
@@ -1257,6 +1307,16 @@ top:2%
      width: 100%;
      height: 100%;
     background-image: url(../img/hadeer-content.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+@media (max-width:768px){
+     #over-content{
+          background-image: url(../img/Splatter.png);
+
+
+     }
+
 }
 .component-servers{
      position: relative;
@@ -1277,6 +1337,12 @@ background-color: #ACADAD09;
      color: #D8B76F;
      font-size: 20px;
      font-weight: 400;
+}
+@media  (max-width: 768px){
+     .contact-contente .content-box{
+font-size: 16px;
+
+     }
 }
 .link-contentphon-us{
      background-color: #FFFFFF10;
